@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flights List - Madhav Vempaty</title>
+    
+    
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    
+    <style>
+        body {
+            font-family: 'DM Sans', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #fff;
+        }
+        .navbar-brand {
+            font-weight: bold;
+            color: #343a40;
+        }
+        .navbar-nav .nav-link {
+            color: #343a40;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #007bff;
+        }
+        .table thead {
+            background-color: #007bff;
+            color: #fff;
+        }
+        .table-bordered td, .table-bordered th {
+            border: 1px solid #dee2e6;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Explore India</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><strong>About Me</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><strong>Contact </strong></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center mb-4">
+                <h2 class="display-4">Available Flights</h2>
+                <p class="lead">Find the best flights to your favorite destinations.</p>
+            </div>
+        </div>
+        
+        <div class="row mb-5">
+            <div class="col-md-12">
+                <div class="table-responsive">
+                    <table class="table table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Flight Number</th>
+                                <th>Airline</th>
+                                <th>Departure</th>
+                                <th>Arrival</th>
+                                <th>Duration</th>
+                                <th>Frequency</th>
+                                <th>Avg Price</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>AI 101</td>
+                                <td>Air India</td>
+                                <td>Delhi (DEL)</td>
+                                <td>Mumbai (BOM)</td>
+                                <td>2h 15m</td>
+                                <td>Daily</td>
+                                <td>$100-$120</td>
+                            </tr>
+                            <tr>
+                                <td>6E 203</td>
+                                <td>IndiGo</td>
+                                <td>Delhi (DEL)</td>
+                                <td>Bangalore (BLR)</td>
+                                <td>2h 30m</td>
+                                <td>Daily</td>
+                                <td>$110-$130</td>
+                            </tr>
+                            <tr>
+                                <td>SG 405</td>
+                                <td>SpiceJet</td>
+                                <td>Mumbai (BOM)</td>
+                                <td>Chennai (MAA)</td>
+                                <td>2h 10m</td>
+                                <td>Daily</td>
+                                <td>$90-$110</td>
+                            </tr>
+                            <tr>
+                                <td>G8 502</td>
+                                <td>GoAir</td>
+                                <td>Delhi (DEL)</td>
+                                <td>Kolkata (CCU)</td>
+                                <td>2h 45m</td>
+                                <td>Mon, Wed, Fri</td>
+                                <td>$120-$140</td>
+                            </tr>
+                            <tr>
+                                <td>UK 302</td>
+                                <td>Vistara</td>
+                                <td>Delhi (DEL)</td>
+                                <td>Pune (PNQ)</td>
+                                <td>2h 10m</td>
+                                <td>Daily</td>
+                                <td>$95-$115</td>
+                            </tr>
+                            <tr>
+                                <td>AI 505</td>
+                                <td>Air India</td>
+                                <td>Chennai (MAA)</td>
+                                <td>Bangalore (BLR)</td>
+                                <td>1h 15m</td>
+                                <td>Daily</td>
+                                <td>$70-$90</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Customized Tours and Tour Planning</h3>
+                <p class="lead">For personalized tour packages and travel planning, contact me:</p>
+                <a href="contact.html" class="btn btn-outline-warning" style="background-color: #FFA500; color: white; border-color: #FFA500;">Contact Me</a>
+
+                <div class="row mt-5">
+                    <div class="col-lg-12 text-center">
+                        <h3>Book Your Tickets Now</h3>
+                        <p class="lead">Choose from the most popular ticket booking websites:</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="https://www.makemytrip.com/" target="_blank" class="btn btn-primary" style="margin: 5px;">MakeMyTrip</a>
+                            <a href="https://www.cleartrip.com/" target="_blank" class="btn btn-info" style="margin: 5px;">Cleartrip</a>
+                            <a href="https://www.yatra.com/" target="_blank" class="btn btn-success" style="margin: 5px;">Yatra</a>
+                            <a href="https://www.goibibo.com/" target="_blank" class="btn btn-danger" style="margin: 5px;">Goibibo</a>
+                            <a href="https://www.expedia.com/" target="_blank" class="btn btn-warning" style="margin: 5px;">Expedia</a>
+                                
+                        
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer class="bg-dark text-light text-center py-3">
+    <p class="mb-0">&copy; 2024 Madhav Vempaty. All Rights Reserved.</p>
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

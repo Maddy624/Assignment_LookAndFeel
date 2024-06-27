@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<header class="navbar-light header-sticky">
+    <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid px-md-5">
+            
+            <a class="navbar-brand" href="index.html">
+                <p>Explore India</p>
+            </a>
+
+            
+            <button class="navbar-toggler ms-auto me-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <ul class="navbar-nav navbar-nav-scroll mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><strong>Home</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html"><strong>About Me</strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><strong>Contact</strong></a>
+                    </li>
+                </ul>
+            </div>
+
+            
+            <ul class="nav flex-row align-items-center list-unstyled ms-xl-auto">
+                
+                <li class="nav-item dropdown me-2">
+                    <button class="btn btn-link text-warning p-0 mb-0" id="bd-theme"
+                            type="button"
+                            aria-expanded="false"
+                            data-bs-toggle="dropdown"
+                            data-bs-display="static">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-circle-half theme-icon-active fa-fw" viewBox="0 0 16 16">
+                            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+                            <use href="#"></use>
+                        </svg>
+                    </button>
+
+                    <ul class="dropdown-menu min-w-auto dropdown-menu-end" aria-labelledby="bd-theme">
+                        <li class="mb-1">
+                            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light">
+                                <svg width="16" height="16" fill="currentColor" class="bi bi-brightness-high-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
+                                    <path d="M12 8a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zm-13 0a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+                                    <use href="#"></use>
+                                </svg>Light
+                            </button>
+                        </li>
+                        <li class="mb-1">
+                            <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-moon-stars-fill fa-fw mode-switch me-1" viewBox="0 0 16 16">
+                                    <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.788 3.244 7.27 7.27 0 0 0 7.27 7.27 7.208 7.208 0 0 0 3.243-.788.768.768 0 0 1 .939 1.094A8.001 8.001 0 0 1 8.515 16 8.02 8.02 0 0 1 .03 7.515 8.001 8.001 0 0 1 5.182.14a.768.768 0 0 1 .818.14zM14 6.5a.5.5 0 0 1-.5.5 2 2 0 0 0-2 2 .5.5 0 0 1-1 0 3 3 0 0 1 3-3 .5.5 0 0 1 .5.5zm-1-3a.5.5 0 0 0-.5-.5.5.5 0 0 0-.5.5 1.5 1.5 0 0 1-1.5 1.5.5.5 0 0 0 0 1 2.5 2.5 0 0 0 2.5-2.5z"/>
+                                    <use href="#"></use>
+                                </svg>Dark
+                            </button>
+                        </li>
+                        <li>
+                            <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-circle-half fa-fw mode-switch me-1" viewBox="0 0 16 16">
+                                    <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+                                    <use href="#"></use>
+                                </svg>Auto
+                            </button>
+                        </li>
+                    </ul>
+                </li>
+
+                
+                <li class="nav-item ms-2">
+                    <a class="btn btn-sm btn-warning mb-0" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Travel Destinations in India</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        .chart-container {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 50px;
+        }
+        .chart-box {
+            width: 45%;
+        }
+        h2, h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .summary-cards {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .summary-card {
+            width: calc(50% - 20px);
+            min-width: 300px;
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+
+<div class="summary-cards">
+    
+    <div class="summary-card">
+        <h4>Total Tourists This Year</h4>
+        <p id="totalTourists">Loading...</p>
+    </div>
+    
+    <div class="summary-card">
+        <h4>Most Visited Place</h4>
+        <p id="mostVisitedPlace">Loading...</p>
+    </div>
+    
+    <div class="summary-card">
+        <h4>Highest Rated Place</h4>
+        <p id="highestRatedPlace">Loading...</p>
+    </div>
+    
+    <div class="summary-card">
+        <h4>Highest Booked Flights Destination</h4>
+        <p id="highestBookedFlights">Loading...</p>
+    </div>
+</div>
+<div class="chart-container">
+    <div class="chart-box">
+        <h3>Foreign Tourists Trends</h3>
+        <canvas id="foreignTouristsChart"></canvas>
+    </div>
+    <div class="chart-box">
+        <h3>Average Spending Trends</h3>
+        <canvas id="averageSpendingChart"></canvas>
+    </div>
+</div>
+
+<script>
+    
+    const years = ['2015', '2016', '2017', '2018', '2019', '2020', '2021'];
+    const touristsData = [8000000, 8500000, 9000000, 9500000, 10000000, 7500000, 8500000];
+    const spendingData = [1200, 1300, 1400, 1500, 1600, 1700, 1800];
+
+    
+    const ctx1 = document.getElementById('foreignTouristsChart').getContext('2d');
+    const ctx2 = document.getElementById('averageSpendingChart').getContext('2d');
+
+    
+    const foreignTouristsChart = new Chart(ctx1, {
+        type: 'line',
+        data: {
+            labels: years,
+            datasets: [{
+                label: 'Foreign Tourists Visiting India',
+                data: touristsData,
+                fill: false,
+                borderColor: 'rgb(75, 192, 192)',
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Number of Tourists'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Year'
+                    }
+                }
+            }
+        }
+    });
+
+    const averageSpendingChart = new Chart(ctx2, {
+        type: 'line',
+        data: {
+            labels: years,
+            datasets: [{
+                label: 'Average Spending per Person (USD)',
+                data: spendingData,
+                fill: false,
+                borderColor: 'rgb(255, 99, 132)',
+                tension: 0.1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: true,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Average Spending (USD)'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Year'
+                    }
+                }
+            }
+        }
+    });
+</script>
+<h2>Top Travel Destinations in India</h2>
+
+<div class="container">
+    <div class="chart-container">
+        <div class="chart-box">
+            <h3>Visits Distribution in Goa</h3>
+            <canvas id="goaPieChart"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Monthly Visits in Goa</h3>
+            <canvas id="goaBarChart"></canvas>
+        </div>
+    </div>
+    <div class="chart-container">
+        <div class="chart-box">
+            <h3>Visits Distribution in Leh</h3>
+            <canvas id="lehPieChart"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Monthly Visits in Leh</h3>
+            <canvas id="lehBarChart"></canvas>
+        </div>
+    </div>
+    <div class="chart-container">
+        <div class="chart-box">
+            <h3>Visits Distribution in Jammu and Kashmir</h3>
+            <canvas id="jkPieChart"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Monthly Visits in Jammu and Kashmir</h3>
+            <canvas id="jkBarChart"></canvas>
+        </div>
+    </div>
+    <div class="chart-container">
+        <div class="chart-box">
+            <h3>Visits Distribution in Varanasi</h3>
+            <canvas id="varanasiPieChart"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Monthly Visits in Varanasi</h3>
+            <canvas id="varanasiBarChart"></canvas>
+        </div>
+    </div>
+    <div class="chart-container">
+        <div class="chart-box">
+            <h3>Visits Distribution in Agra</h3>
+            <canvas id="agraPieChart"></canvas>
+        </div>
+        <div class="chart-box">
+            <h3>Monthly Visits in Agra</h3>
+            <canvas id="agraBarChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<script>
+    
+    async function fetchData() {
+        
+        return {
+    goa: {
+        pieData: [60, 40],
+        barData: [150, 200, 250, 300, 700, 800, 900, 1200, 1000, 500, 300, 200]  
+    },
+    leh: {
+        pieData: [40, 30, 20, 10],
+        barData: [50, 100, 150, 200, 250, 300, 500, 700, 800, 900, 600, 400]  
+    },
+    jk: {
+        pieData: [15, 18, 27, 40],
+        barData: [100, 150, 200, 300, 400, 500, 600, 700, 600, 500, 400, 300]  
+    },
+    varanasi: {
+        pieData: [42, 58],
+        barData: [50, 100, 200, 300, 400, 350, 300, 400, 500, 600, 700, 800] 
+    },
+    agra: {
+        pieData: [70, 30],
+        barData: [200, 300, 250, 400, 350, 500, 450, 600, 550, 700, 800, 750]  
+    }
+};
+
+
+
+    }
+
+    async function createCharts() {
+        const data = await fetchData();
+
+        
+        document.getElementById('totalTourists').textContent = '2,500,000'; 
+
+        
+        document.getElementById('mostVisitedPlace').textContent = 'Goa'; 
+        
+        document.getElementById('highestRatedPlace').textContent = 'Leh'; 
+
+        
+        document.getElementById('highestBookedFlights').textContent = 'Varanasi'; 
+
+        
+        new Chart(document.getElementById('goaPieChart'), {
+            type: 'pie',
+            data: {
+                labels: ['Aguda Fort', 'Beach'],
+                datasets: [{
+                    data: data.goa.pieData,
+                    backgroundColor: ['#FF6384', '#36A2EB']
+                }]
+            }
+        });
+
+        new Chart(document.getElementById('goaBarChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Visits',
+                    data: data.goa.barData,
+                    backgroundColor: '#36A2EB'
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        
+        new Chart(document.getElementById('lehPieChart'), {
+            type: 'pie',
+            data: {
+                labels: ['Pangong', 'Nubra', 'Leh Palace', 'Khardung La'],
+                datasets: [{
+                    data: data.leh.pieData,
+                    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+                }]
+            }
+        });
+
+        new Chart(document.getElementById('lehBarChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Visits',
+                    data: data.leh.barData,
+                    backgroundColor: '#36A2EB'
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        
+        new Chart(document.getElementById('jkPieChart'), {
+            type: 'pie',
+            data: {
+                labels: ['Dal Lake', 'Gulmarg', 'Vaishno Devi', 'Sonamarg'],
+                datasets: [{
+                    data: data.jk.pieData,
+                    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+                }]
+            }
+        });
+
+        new Chart(document.getElementById('jkBarChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Visits',
+                    data: data.jk.barData,
+                    backgroundColor: '#36A2EB'
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        
+        new Chart(document.getElementById('varanasiPieChart'), {
+            type: 'pie',
+            data: {
+                labels: ['Kashi Vishwanath Temple', 'Ganga Ghats'],
+                datasets: [{
+                    data: data.varanasi.pieData,
+                    backgroundColor: ['#FF6384', '#36A2EB']
+                }]
+            }
+        });
+
+        new Chart(document.getElementById('varanasiBarChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Visits',
+                    data: data.varanasi.barData,
+                    backgroundColor: '#36A2EB'
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+
+        
+        new Chart(document.getElementById('agraPieChart'), {
+            type: 'pie',
+            data: {
+                labels: ['Taj Mahal', 'Agra Fort'],
+                datasets: [{
+                    data: data.agra.pieData,
+                    backgroundColor: ['#FF6384', '#36A2EB']
+                }]
+            }
+        });
+
+        new Chart(document.getElementById('agraBarChart'), {
+            type: 'bar',
+            data: {
+                labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+                datasets: [{
+                    label: 'Visits',
+                    data: data.agra.barData,
+                    backgroundColor: '#36A2EB'
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    }
+
+    
+    window.onload = createCharts;
+</script>
+
+</body>
+</html>
